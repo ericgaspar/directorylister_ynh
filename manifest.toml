@@ -50,6 +50,7 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
+        in_subdir = false
         url = "https://github.com/DirectoryLister/DirectoryLister/releases/download/3.12.3/DirectoryLister-3.12.3.tar.gz"
         sha256 = "bda6033c0e1d5a6b9deed094b3aefce7dd22f8aaece71a70474425793e288cad"
         autoupdate.strategy = "latest_github_tag"
